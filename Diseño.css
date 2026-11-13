@@ -38,21 +38,93 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
 
 .Bienvenida,
 .Motivo,
-.Rockstar {background-color: var(--fondo-secciones);color: var(--texto-principal);padding: 30px;margin: 20px 40px;border-radius: 10px;}
+.Rockstar {
+    max-width: 1200px;
+    box-sizing: border-box;
+    background-color: var(--fondo-secciones);
+    color: var(--texto-principal);
+    padding: 35px;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+
 .Bienvenida h2,
 .Motivo h2,
-.Rockstar h2 {color: var(--naranja-rockstar);}
-.Bienvenida img {width: 100%;height: auto;display: block; border-radius: 8px;margin-top: 35px;}
+.Rockstar h2 {
+    color: var(--naranja-rockstar);
+    font-size: 27px;
+    margin: 0 0 20px;
+}
+
+.Bienvenida p,
+.Motivo p,
+.Rockstar p {
+    color: var(--texto-principal);
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 0 16px;
+}
+
+/* Imagen principal del inicio */
+
+.Bienvenida img {
+    display: block;
+    width: 100%;
+    max-width: 950px;
+    max-height: 430px;
+    height: auto;
+    object-fit: contain;
+    margin: 30px auto 0;
+    border-radius: 10px;
+}
 
 /* ==========================
    ACERCA DE ROCKSTAR
 ========================== */
 
-.acercade > h2 {color: var(--naranja-rockstar);text-align: center;font-size: 30px;margin: 35px 25px;}
-.acercade > h3 {color: var(--naranja-rockstar); margin: 35px 25px 15px;font-size: 23px;}
-.acercade > p {color: var(--texto-principal); line-height: 1.7;margin: 15px 25px;font-size: 16px;}
-.acercade > img {display: block;width: calc(100% - 50px);max-width: 1100px;height: auto; margin: 30px auto 40px;border-radius: 10px;}
-.acercade {background-color: var(--fondo-secciones);color: var(--texto-principal);padding: 30px;margin: 20px 40px;border-radius: 10px;}
+.acercade {
+    max-width: 1200px;
+    box-sizing: border-box;
+    background-color: var(--fondo-secciones);
+    color: var(--texto-principal);
+    padding: 35px;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+
+.acercade > h2 {
+    color: var(--naranja-rockstar);
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 35px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #70563A;
+}
+
+.acercade > h3 {
+    color: var(--naranja-rockstar);
+    font-size: 23px;
+    margin: 35px 0 15px;
+}
+
+.acercade > p {
+    color: var(--texto-principal);
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.acercade > img {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    max-height: 430px;
+    height: auto;
+    object-fit: contain;
+    margin: 30px auto 40px;
+    border-radius: 10px;
+}
+
 
 /* ==========================
    VIDEOJUEGOS
@@ -1027,17 +1099,528 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
 /* ==========================
    CONTACTO
 ========================== */
-.pagina-contacto {max-width: 850px;margin: 40px auto;padding: 20px;}
-.pagina-contacto > h2 {color: var(--naranja-rockstar);text-align: center;font-size: 32px;margin-bottom: 15px;}
-.pagina-contacto > p {color: var(--texto-principal);text-align: center;line-height: 1.7;margin-bottom: 30px;}
-.formulario-contacto {background-color: var(--fondo-secciones);padding: 35px;border-radius: 12px;display: flex;flex-direction: column;}
-.formulario-contacto label {color: var(--texto-principal);font-weight: bold;margin-bottom: 8px;}
+.pagina-contacto {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.pagina-contacto > h2 {
+    color: var(--naranja-rockstar);
+    text-align: center;font-size: 32px;
+    margin-bottom: 15px;
+}
+.pagina-contacto > p {
+    color: var(--texto-principal);
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.formulario-contacto {
+    background-color: var(--fondo-secciones)
+    ;padding: 35px;border-radius: 12px
+    ;display: flex
+    ;flex-direction: column;
+}
+.formulario-contacto label {
+    color: var(--texto-principal);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
 .formulario-contacto input,
 .formulario-contacto select,
-.formulario-contacto textarea {width: 100%;box-sizing: border-box;background-color: var(--fondo-cabecera);color: var(--texto-principal);border: 1px solid #444444;border-radius: 7px;padding: 12px;margin-bottom: 22px;font-family: Arial, sans-serif;font-size: 15px;}
+.formulario-contacto textarea {
+    width: 100%;box-sizing: border-box;
+    background-color: var(--fondo-cabecera);
+    color: var(--texto-principal);
+    border: 1px solid #444444;
+    border-radius: 7px;padding: 12px;
+    margin-bottom: 22px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
 .formulario-contacto input:focus,
 .formulario-contacto select:focus,
-.formulario-contacto textarea:focus {outline: none;border-color: var(--naranja-rockstar);}
-.formulario-contacto textarea {min-height: 150px;resize: vertical;}
-.formulario-contacto button {background-color: var(--naranja-rockstar);color: var(--fondo-principal);border: none;border-radius: 7px;padding: 14px;font-size: 16px;font-weight: bold;cursor: pointer;transition: 0.3s;}
-.formulario-contacto button:hover {background-color: #e89400;transform: translateY(-2px);}
+.formulario-contacto textarea:focus {
+    outline: none;
+    border-color: var(--naranja-rockstar);
+}
+.formulario-contacto textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+.formulario-contacto button {
+    background-color: var(--naranja-rockstar);
+    color: var(--fondo-principal);border: none;
+    border-radius: 7px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.formulario-contacto button:hover {
+    background-color: #e89400;
+    transform: translateY(-2px);
+}
+
+
+/* ==========================
+   TABLETS
+========================== */
+
+@media (max-width: 900px) {
+
+    /* Cabecera */
+
+    .cabecera {
+        padding: 20px;
+    }
+
+    .logo-titulo img {
+        width: 50px;
+    }
+
+    .cabecera nav {
+        gap: 8px;
+    }
+
+    .cabecera nav a {
+        padding: 9px 13px;
+        font-size: 14px;
+    }
+
+    /* Inicio y acerca de */
+
+    .Bienvenida,
+    .Motivo,
+    .Rockstar,
+    .acercade {
+        width: calc(100% - 40px);
+        padding: 25px;
+    }
+
+    /* Catálogo */
+
+    .rejilla-videojuegos {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    /* Guías */
+
+    .rejilla-guias {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Noticias */
+
+    .noticia a {
+        gap: 18px;
+    }
+
+    .noticia img {
+        width: 230px;
+        height: 160px;
+    }
+
+    /* Páginas de videojuegos */
+
+    .descripcion-juego {
+        gap: 25px;
+    }
+
+    .expansion-individual {
+        gap: 20px;
+    }
+
+    /* Guías individuales */
+
+    .guiapagina-rdr2 .contenido-guiar,
+    .guiapagina-gtav .contenido-guiav {
+        gap: 20px;
+    }
+
+    .guiapagina-rdr2 .contenido-guiar img,
+    .guiapagina-gtav .contenido-guiav img {
+        width: 40%;
+    }
+}
+
+
+/* ==========================
+   MÓVILES
+========================== */
+
+@media (max-width: 650px) {
+
+    /* Configuración general */
+
+    body {
+        font-size: 15px;
+    }
+
+    /* Cabecera y logo */
+
+    .cabecera {
+        padding: 18px 12px;
+    }
+
+    .logo-titulo {
+        gap: 10px;
+    }
+
+    .logo-titulo img {
+        width: 42px;
+    }
+
+    .logo-titulo h1 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .cabecera nav {
+        margin-top: 18px;
+        padding: 10px;
+        gap: 7px;
+    }
+
+    .cabecera nav a {
+        font-size: 13px;
+        padding: 9px 11px;
+    }
+
+    /* Inicio */
+
+    .Bienvenida,
+    .Motivo,
+    .Rockstar {
+        width: calc(100% - 24px);
+        padding: 20px;
+        margin: 18px auto;
+    }
+
+    .Bienvenida h2,
+    .Motivo h2,
+    .Rockstar h2 {
+        font-size: 22px;
+    }
+
+    .Bienvenida p,
+    .Motivo p,
+    .Rockstar p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .Bienvenida img {
+        max-height: 280px;
+        margin-top: 20px;
+    }
+
+    /* Acerca de Rockstar */
+
+    .acercade {
+        width: calc(100% - 24px);
+        padding: 20px;
+        margin: 18px auto;
+    }
+
+    .acercade > h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .acercade > h3 {
+        font-size: 20px;
+        margin-top: 28px;
+    }
+
+    .acercade > p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .acercade > img {
+        max-height: 280px;
+        margin: 22px auto 30px;
+    }
+
+    /* Catálogo de videojuegos */
+
+    .pagina-videojuegos {
+        padding: 12px;
+    }
+
+    .introduccion-catalogo {
+        padding: 20px;
+    }
+
+    .introduccion-catalogo > h2 {
+        font-size: 24px;
+    }
+
+    .rejilla-videojuegos,
+    .rejilla-imprescindibles {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .Videojuego {
+        padding: 10px;
+    }
+
+    .Videojuego h3 {
+        font-size: 14px;
+        min-height: 35px;
+    }
+
+    .tarjeta-imprescindible {
+        padding: 10px;
+    }
+
+    .tarjeta-imprescindible h3 {
+        font-size: 14px;
+    }
+
+    .año {
+        margin: 35px 0;
+    }
+
+    .año > h2 {
+        font-size: 23px;
+    }
+
+    /* Páginas individuales de videojuegos */
+
+    .pagina-juego {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .pagina-juego > h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .pagina-juego h3 {
+        font-size: 20px;
+    }
+
+    .descripcion-juego,
+    .expansion-individual {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .descripcion-juego > img,
+    .expansion-individual img {
+        width: 65%;
+        max-width: 230px;
+    }
+
+    .galeria-capturas {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .detalles-juego {
+        overflow-x: auto;
+    }
+
+    .detalles-juego table {
+        min-width: 500px;
+    }
+
+    .detalles-juego th,
+    .detalles-juego td {
+        padding: 12px 8px;
+        font-size: 13px;
+    }
+
+    .opinion-juego {
+        padding-left: 18px;
+    }
+
+    /* Noticias */
+
+    .pagina-noticias {
+        padding: 12px;
+        margin: 20px auto;
+    }
+
+    .pagina-noticias > h2 {
+        font-size: 25px;
+    }
+
+    .noticia a {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 15px;
+    }
+
+    .noticia img {
+        width: 100%;
+        height: auto;
+        max-height: 240px;
+        object-fit: contain;
+    }
+
+    .contenido-noticia h3 {
+        font-size: 18px;
+    }
+
+    .noticia-completa {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+
+    .noticia-completa > h2 {
+        font-size: 23px;
+    }
+
+    .noticia-completa section h3 {
+        font-size: 19px;
+    }
+
+    .noticia-completa > p,
+    .noticia-completa section p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .noticia-completa > p:last-child {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    /* Guías */
+
+    .pagina-guias {
+        padding: 12px;
+    }
+
+    .pagina-guias > h2 {
+        font-size: 25px;
+    }
+
+    .rejilla-guias {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .guia img {
+        height: auto;
+        max-height: 240px;
+        object-fit: cover;
+    }
+
+    /* Guías individuales */
+
+    .guiapagina-gtaiv,
+    .guiapagina-rdr2,
+    .guiapagina-gtav {
+        padding: 12px;
+        margin: 20px auto;
+    }
+
+    .guiapagina-gtaiv > h2,
+    .guiapagina-rdr2 > h2,
+    .guiapagina-gtav > h2 {
+        font-size: 25px;
+    }
+
+    .guiapagina-gtaiv section,
+    .guiapagina-rdr2 section,
+    .guiapagina-gtav section {
+        padding: 18px;
+        margin: 20px 0;
+    }
+
+    .guiapagina-gtaiv section h3,
+    .guiapagina-rdr2 section h3,
+    .guiapagina-gtav section h3 {
+        font-size: 21px;
+    }
+
+    .comparacion-gtaiv {
+        grid-template-columns: 1fr;
+    }
+
+    .guiapagina-rdr2 .contenido-guiar,
+    .guiapagina-gtav .contenido-guiav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .guiapagina-rdr2 .contenido-guiar img,
+    .guiapagina-gtav .contenido-guiav img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Contacto */
+
+    .pagina-contacto {
+        padding: 12px;
+        margin: 20px auto;
+    }
+
+    .pagina-contacto > h2 {
+        font-size: 26px;
+    }
+
+    .formulario-contacto {
+        padding: 20px;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 25px 15px;
+    }
+
+    .footer-contenido nav {
+        gap: 15px;
+    }
+
+    .footer-contenido nav a {
+        font-size: 14px;
+    }
+}
+
+
+/* ==========================
+   MÓVILES PEQUEÑOS
+========================== */
+
+@media (max-width: 380px) {
+
+    .logo-titulo h1 {
+        font-size: 19px;
+    }
+
+    .cabecera nav a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .rejilla-videojuegos,
+    .rejilla-imprescindibles {
+        grid-template-columns: 1fr;
+    }
+
+    .Videojuego h3 {
+        font-size: 16px;
+    }
+
+    .tarjeta-imprescindible h3 {
+        font-size: 16px;
+    }
+
+    .Bienvenida,
+    .Motivo,
+    .Rockstar,
+    .acercade {
+        padding: 16px;
+    }
+}
