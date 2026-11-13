@@ -1250,6 +1250,11 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
    MÓVILES
 ========================== */
 
+
+/* ==========================
+   DISEÑO PARA MÓVILES
+========================== */
+
 @media (max-width: 650px) {
 
     /* Configuración general */
@@ -1261,31 +1266,31 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     /* Cabecera y logo */
 
     .cabecera {
-        padding: 18px 12px;
+        padding: 15px 10px;
     }
 
     .logo-titulo {
-        gap: 10px;
+        gap: 8px;
     }
 
     .logo-titulo img {
-        width: 42px;
+        width: 40px;
     }
 
     .logo-titulo h1 {
-        font-size: 23px;
+        font-size: 22px;
         text-align: center;
     }
 
     .cabecera nav {
-        margin-top: 18px;
-        padding: 10px;
-        gap: 7px;
+        margin-top: 12px;
+        padding: 8px;
+        gap: 6px;
     }
 
     .cabecera nav a {
         font-size: 13px;
-        padding: 9px 11px;
+        padding: 8px 10px;
     }
 
     /* Inicio */
@@ -1293,79 +1298,82 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     .Bienvenida,
     .Motivo,
     .Rockstar {
-        width: calc(100% - 24px);
-        padding: 20px;
-        margin: 18px auto;
+        width: calc(100% - 20px);
+        padding: 18px;
+        margin: 12px auto;
     }
 
     .Bienvenida h2,
     .Motivo h2,
     .Rockstar h2 {
         font-size: 22px;
+        margin-bottom: 14px;
     }
 
     .Bienvenida p,
     .Motivo p,
     .Rockstar p {
         font-size: 15px;
-        line-height: 1.7;
+        line-height: 1.6;
+        margin: 10px 0;
     }
 
     .Bienvenida img {
-        max-height: 280px;
-        margin-top: 20px;
+        max-height: 260px;
+        margin-top: 15px;
     }
 
     /* Acerca de Rockstar */
 
     .acercade {
-        width: calc(100% - 24px);
-        padding: 20px;
-        margin: 18px auto;
+        width: calc(100% - 20px);
+        padding: 18px;
+        margin: 12px auto;
     }
 
     .acercade > h2 {
-        font-size: 25px;
-        margin-bottom: 25px;
+        font-size: 24px;
+        margin-bottom: 20px;
     }
 
     .acercade > h3 {
         font-size: 20px;
-        margin-top: 28px;
+        margin: 22px 0 12px;
     }
 
     .acercade > p {
         font-size: 15px;
-        line-height: 1.7;
+        line-height: 1.6;
+        margin: 10px 0;
     }
 
     .acercade > img {
-        max-height: 280px;
-        margin: 22px auto 30px;
+        max-height: 260px;
+        margin: 18px auto 25px;
     }
 
     /* Catálogo de videojuegos */
 
     .pagina-videojuegos {
-        padding: 12px;
+        padding: 10px;
     }
 
     .introduccion-catalogo {
-        padding: 20px;
+        padding: 16px;
     }
 
     .introduccion-catalogo > h2 {
-        font-size: 24px;
+        font-size: 23px;
     }
 
     .rejilla-videojuegos,
     .rejilla-imprescindibles {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 15px;
+        gap: 12px;
     }
 
     .Videojuego {
-        padding: 10px;
+        padding: 8px;
     }
 
     .Videojuego h3 {
@@ -1374,7 +1382,7 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     }
 
     .tarjeta-imprescindible {
-        padding: 10px;
+        padding: 8px;
     }
 
     .tarjeta-imprescindible h3 {
@@ -1382,23 +1390,23 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     }
 
     .año {
-        margin: 35px 0;
+        margin: 25px 0;
     }
 
     .año > h2 {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     /* Páginas individuales de videojuegos */
 
     .pagina-juego {
-        padding: 15px;
-        margin: 20px auto;
+        padding: 12px;
+        margin: 15px auto;
     }
 
     .pagina-juego > h2 {
-        font-size: 25px;
-        margin-bottom: 25px;
+        font-size: 24px;
+        margin-bottom: 20px;
     }
 
     .pagina-juego h3 {
@@ -1409,7 +1417,7 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     .expansion-individual {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 15px;
     }
 
     .descripcion-juego > img,
@@ -1420,7 +1428,7 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
 
     .galeria-capturas {
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 12px;
     }
 
     .detalles-juego {
@@ -1433,29 +1441,29 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
 
     .detalles-juego th,
     .detalles-juego td {
-        padding: 12px 8px;
+        padding: 10px 8px;
         font-size: 13px;
     }
 
     .opinion-juego {
-        padding-left: 18px;
+        padding-left: 15px;
     }
 
     /* Noticias */
 
     .pagina-noticias {
-        padding: 12px;
-        margin: 20px auto;
+        padding: 10px;
+        margin: 15px auto;
     }
 
     .pagina-noticias > h2 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .noticia a {
         flex-direction: column;
         align-items: stretch;
-        padding: 15px;
+        padding: 12px;
     }
 
     .noticia img {
@@ -1470,12 +1478,12 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     }
 
     .noticia-completa {
-        margin: 20px 12px;
-        padding: 20px;
+        margin: 15px 10px;
+        padding: 16px;
     }
 
     .noticia-completa > h2 {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .noticia-completa section h3 {
@@ -1485,27 +1493,27 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     .noticia-completa > p,
     .noticia-completa section p {
         font-size: 15px;
-        line-height: 1.8;
+        line-height: 1.7;
     }
 
     .noticia-completa > p:last-child {
-        padding: 15px;
+        padding: 12px;
         font-size: 15px;
     }
 
     /* Guías */
 
     .pagina-guias {
-        padding: 12px;
+        padding: 10px;
     }
 
     .pagina-guias > h2 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .rejilla-guias {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 15px;
     }
 
     .guia img {
@@ -1519,27 +1527,27 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     .guiapagina-gtaiv,
     .guiapagina-rdr2,
     .guiapagina-gtav {
-        padding: 12px;
-        margin: 20px auto;
+        padding: 10px;
+        margin: 15px auto;
     }
 
     .guiapagina-gtaiv > h2,
     .guiapagina-rdr2 > h2,
     .guiapagina-gtav > h2 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .guiapagina-gtaiv section,
     .guiapagina-rdr2 section,
     .guiapagina-gtav section {
-        padding: 18px;
-        margin: 20px 0;
+        padding: 15px;
+        margin: 15px 0;
     }
 
     .guiapagina-gtaiv section h3,
     .guiapagina-rdr2 section h3,
     .guiapagina-gtav section h3 {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .comparacion-gtaiv {
@@ -1561,66 +1569,29 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
     /* Contacto */
 
     .pagina-contacto {
-        padding: 12px;
-        margin: 20px auto;
+        padding: 10px;
+        margin: 15px auto;
     }
 
     .pagina-contacto > h2 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .formulario-contacto {
-        padding: 20px;
+        padding: 16px;
     }
 
     /* Footer */
 
     footer {
-        padding: 25px 15px;
+        padding: 20px 12px;
     }
 
     .footer-contenido nav {
-        gap: 15px;
+        gap: 12px;
     }
 
     .footer-contenido nav a {
-        font-size: 14px;
-    }
-}
-
-
-/* ==========================
-   MÓVILES PEQUEÑOS
-========================== */
-
-@media (max-width: 380px) {
-
-    .logo-titulo h1 {
-        font-size: 19px;
-    }
-
-    .cabecera nav a {
-        font-size: 12px;
-        padding: 8px;
-    }
-
-    .rejilla-videojuegos,
-    .rejilla-imprescindibles {
-        grid-template-columns: 1fr;
-    }
-
-    .Videojuego h3 {
-        font-size: 16px;
-    }
-
-    .tarjeta-imprescindible h3 {
-        font-size: 16px;
-    }
-
-    .Bienvenida,
-    .Motivo,
-    .Rockstar,
-    .acercade {
-        padding: 16px;
+        font-size: 13px;
     }
 }
