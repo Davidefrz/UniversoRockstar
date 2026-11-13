@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Universo Rockstar</title>
+    <link rel="icon" href="../Imagenes/Logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../Diseño.css">
+    
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="logo-titulo">
+            <img src="../Imagenes/Logo.jpg" alt="Logo de Universo Rockstar">
+
+            <h1>Universo Rockstar</h1>
+        </div>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="TodoacercadeRockstar.html">Todo acerca de Rockstar Games</a>
+            <a href="Videojuegos.html">Videojuegos</a>
+            <a href="Noticias.html">Noticias</a>
+            <a href="Guías.html">Guías</a>
+            <a href="Contacto.html">Contáctanos</a>
+        </nav>
+    </header>
+
+    <main class="pagina-contacto">
+        <h2>Cuéntanos qué piensas</h2>
+        <p>¿Qué te parece nuestra página sobre el universo Rockstar? Nos gustaría conocer tu opinión. ¡Estamos abiertos a escuchar cualquier sugerencia, crítica o propuesta que tengas!</p>
+
+        <form class="formulario-contacto">
+
+        <label for= "nombre">
+            Nombre:
+        </label>
+        <input
+            type="text"
+            id="Nombre"
+            name="Nombre"
+            required
+        >
+        <label for= "email">
+            Email:
+        </label>
+        <input
+            type="text"
+            id="email"
+            name="email"
+            required
+        >
+        <label for="motivo">
+            ¿Cuál es el motivo de tu mensaje?
+        </label>
+        <select>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="crítica">Crítica</option>
+            <option value="error">Informar de un error</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <label for="mensaje">Escribe tu mensaje:</label>
+        <textarea 
+            id="mensaje" 
+            name="mensaje" 
+            minlength="10" 
+            required
+        >
+        </textarea>
+
+        <button type="submit">Enviar mensaje</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="footer-contenido">
+
+            <p class="footer-eslogan">Ah shit, here we code again</p>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="Videojuegos.html">Videojuegos</a>
+                <a href="Noticias.html">Noticias</a>
+                <a href="Guías.html">Guías</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+
+            <hr>
+
+            <p>Proyecto RA2 · Creado por David Reyes</p>
+            <p>© 2026 · Universo Rockstar</p>
+
+        </div>
+    </footer>
+</body>
+</html>
