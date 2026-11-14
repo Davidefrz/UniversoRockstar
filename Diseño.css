@@ -493,21 +493,89 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
 /* ==========================
    NOTICIA
 ========================== */
-.pagina-noticias {max-width: 1100px;margin: 35px auto;padding: 20px;}
-.pagina-noticias > h2 {color: var(--naranja-rockstar);text-align: center;font-size: 32px;margin-bottom: 15px;}
-.introduccion-noticias {color: var(--texto-principal);text-align: center;line-height: 1.7;margin-bottom: 35px;}
-.lista-noticias {display: flex;flex-direction: column;gap: 25px;}
-.noticia {background-color: var(--fondo-secciones);border-radius: 10px;overflow: hidden;transition: transform 0.3s;}
-.noticia:hover {transform: translateY(-4px);}
-.noticia a {display: flex;align-items: center;gap: 25px;padding: 20px;color: inherit;text-decoration: none;}
-.contenido-noticia {flex: 1;}
-.categoria {display: inline-block;background-color: var(--naranja-rockstar);color: var(--fondo-principal);padding: 5px 12px;border-radius: 5px;font-size: 13px;font-weight: bold;margin-bottom: 12px;}
-.contenido-noticia h3 {color: var(--texto-principal);font-size: 20px;margin: 0 0 12px;transition: color 0.3s;}
-.noticia:hover h3 {color: var(--naranja-rockstar);}
-.sobre {color: var(--naranja-rockstar);font-size: 13px;font-weight: bold;margin-bottom: 12px;}
-.resumen {color: var(--texto-principal);line-height: 1.6;margin-bottom: 15px;}
-.fecha {color: var(--texto-secundario);font-size: 13px;margin: 0;}
-.noticia img {width: 280px;height: 190px;object-fit: cover;border-radius: 8px;}
+.pagina-noticias {
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 20px;
+}
+.pagina-noticias > h2 {
+    color: var(--naranja-rockstar);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.introduccion-noticias {
+    color: var(--texto-principal);
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+.lista-noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.noticia {
+    background-color: var(--fondo-secciones);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.noticia:hover {
+    transform: translateY(-4px);
+}
+.noticia a {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    color: inherit;
+    text-decoration: none;
+}
+.contenido-noticia {
+    flex: 1;
+}
+.categoria {
+    display: inline-block;
+    background-color: var(--naranja-rockstar);
+    color: var(--fondo-principal);
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.contenido-noticia h3 {
+    color: var(--texto-principal);
+    font-size: 20px;
+    margin: 0 0 12px;
+    transition: color 0.3s;
+}
+.noticia:hover h3 {
+    color: var(--naranja-rockstar);
+}
+.sobre {
+    color: var(--naranja-rockstar);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.resumen {
+    color: var(--texto-principal);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.fecha {
+    color: var(--texto-secundario);
+    font-size: 13px;
+    margin: 0;
+}
+.noticia img {
+    width: 280px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 
 /* NOTICIAS INDIVIDUALES */
 
@@ -622,20 +690,79 @@ footer {background-color: var(--fondo-cabecera);border-top: 3px solid var(--nara
    GUIAS
 ========================== */
 
-.pagina-guias {max-width: 1200px;margin: 35px auto;padding: 20px;}
-.pagina-guias > h2 {color: var(--naranja-rockstar);text-align: center;font-size: 32px;margin-bottom: 15px;}
-.introduccion-guias {color: var(--texto-principal);text-align: center;line-height: 1.7;margin-bottom: 40px;}
-.rejilla-guias {display: grid;grid-template-columns: repeat(3, minmax(0, 1fr));gap: 25px;}
-.guia {background-color: var(--fondo-secciones);border-radius: 10px;overflow: hidden;transition: transform 0.3s;}
-.guia:hover {transform: translateY(-5px);}
-.guia a {display: block;height: 100%;color: inherit;text-decoration: none;}
-.guia img {display: block;width: 100%;height: 210px;object-fit: cover;}
-.contenido-guia {padding: 20px;}
-.categoria-guia {color: var(--naranja-rockstar);font-size: 13px;font-weight: bold;margin-bottom: 12px;}
-.contenido-guia h3 {color: var(--texto-principal);font-size: 19px;line-height: 1.4;margin-bottom: 15px;transition: color 0.3s;}
-.guia:hover h3 {color: var(--naranja-rockstar);}
-.contenido-guia > p:not(.categoria-guia) {color: var(--texto-secundario);font-size: 14px;line-height: 1.6;margin-bottom: 20px;}
-.contenido-guia span {color: var(--naranja-rockstar);font-size: 14px;font-weight: bold;}
+.pagina-guias {
+    max-width: 1200px;
+    margin: 35px auto;
+    padding: 20px;
+}
+.pagina-guias > h2 {
+    color: var(--naranja-rockstar);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.introduccion-guias {
+    color: var(--texto-principal);
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+.rejilla-guias {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+.guia {
+    background-color: var(--fondo-secciones);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.guia:hover {
+    transform: translateY(-5px);
+}
+.guia a {
+    display: block;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+.guia img {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+.contenido-guia {
+    padding: 20px;
+}
+.categoria-guia {
+    color: var(--naranja-rockstar);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.contenido-guia h3 {
+    color: var(--texto-principal);
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+.guia:hover h3 {
+    color: var(--naranja-rockstar);
+}
+.contenido-guia > p:not(.categoria-guia) {
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.contenido-guia span {
+    color: var(--naranja-rockstar);
+    font-size: 14px;
+    font-weight: bold;
+}
 
 
 
