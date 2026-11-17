@@ -7,21 +7,24 @@
         <language>es-es</language>
 
         <item>
-            <title>Título de la primera noticia</title>
+            <title>Primera noticia de Rockstar Games</title>
             <link>https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia1.html</link>
-            <description>Descripción de la primera noticia.</description>
+            <description>Información y novedades sobre Rockstar Games y sus videojuegos.</description>
+            <guid isPermaLink="true">https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia1.html</guid>
         </item>
 
         <item>
-            <title>Título de la segunda noticia</title>
+            <title>Segunda noticia de Rockstar Games</title>
             <link>https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia2.html</link>
-            <description>Descripción de la segunda noticia.</description>
+            <description>Descubre más novedades y noticias relacionadas con el universo Rockstar.</description>
+            <guid isPermaLink="true">https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia2.html</guid>
         </item>
 
         <item>
-            <title>Título de la tercera noticia</title>
+            <title>Tercera noticia de Rockstar Games</title>
             <link>https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia3.html</link>
-            <description>Descripción de la tercera noticia.</description>
+            <description>Actualidad, información y contenido sobre los videojuegos de Rockstar Games.</description>
+            <guid isPermaLink="true">https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia3.html</guid>
         </item>
 
     </channel>
