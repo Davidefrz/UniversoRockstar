@@ -7,10 +7,21 @@
         <language>es-es</language>
 
         <item>
-            <title>Título de una noticia</title>
-            <link>https://davidefrz.github.io/UniversoRockstar/</link>
-            <description>Descripción breve de la noticia.</description>
-            <guid>https://davidefrz.github.io/UniversoRockstar/</guid>
+            <title>Título de la primera noticia</title>
+            <link>https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia1.html</link>
+            <description>Descripción de la primera noticia.</description>
+        </item>
+
+        <item>
+            <title>Título de la segunda noticia</title>
+            <link>https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia2.html</link>
+            <description>Descripción de la segunda noticia.</description>
+        </item>
+
+        <item>
+            <title>Título de la tercera noticia</title>
+            <link>https://davidefrz.github.io/UniversoRockstar/pages/Noticias/Noticia3.html</link>
+            <description>Descripción de la tercera noticia.</description>
         </item>
 
     </channel>
