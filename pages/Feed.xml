@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Universo Rockstar</title>
+        <link>https://davidefrz.github.io/UniversoRockstar/</link>
+        <description>Noticias y novedades sobre Rockstar Games y sus videojuegos.</description>
+        <language>es-es</language>
+
+        <item>
+            <title>Título de una noticia</title>
+            <link>https://davidefrz.github.io/UniversoRockstar/</link>
+            <description>Descripción breve de la noticia.</description>
+            <guid>https://davidefrz.github.io/UniversoRockstar/</guid>
+        </item>
+
+    </channel>
+</rss>
